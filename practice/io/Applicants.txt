@@ -1,0 +1,31 @@
+Candidate 0 : 
+Name : a a a 
+Programming languages known : 
+C
+Java
+C++
+Python
+Go
+Languages known : 
+English
+Hindi
+Kannada
+Spanish
+French
+NO PRIOR EXPRIENCE.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

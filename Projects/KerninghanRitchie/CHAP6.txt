@@ -1,0 +1,6 @@
+int abcdef1
+char abcdef2
+float abcdef3
+char * abcdef4
+int main(int abcdef5) 
+bool abcdef6   

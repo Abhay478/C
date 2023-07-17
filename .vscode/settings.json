@@ -1,0 +1,15 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "*.ejs": "html",
+        "*.tex": "latex",
+        "*.cpp": "cpp",
+        "*.rs": "rust",
+        "*.c": "c",
+        "random": "c",
+        "osapi.h": "c",
+        "queue": "c"
+    }
+}
+
+
