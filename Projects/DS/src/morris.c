@@ -8,11 +8,6 @@ typedef struct t{
 } node;
 node * make_tree(int * a, int m, int n, node * root);
 
-// typedef struct l{
-//     int n;
-//     struct l * next;
-// } item;
-
 void morris(node * root, FILE * f)
 {
     node * current, * prev;
@@ -117,8 +112,8 @@ int random_in(int m, int n)
 //     return head;
 // }
 
-int * sort(int * a)
-{
+int * sort(int * a){
+    
     int l = a[0]; //number of relevant elements
 
     //maximal element

@@ -18,8 +18,8 @@ int * format_for_sort(int * a, int n){
     return out;
 }
 
-int * sort(int * a)
-{
+int * sort(int * a){
+
     int l = a[0]; //number of relevant elements
 
     //maximal element
@@ -74,16 +74,14 @@ int * sort(int * a)
 }
 
 
-
 int main(){
-
     int * a = malloc(11 * sizeof(int));
     a[0] = 10;
     for(int i = 1; i <= 10; i++){
         a[i] = 20 - i; 
     }
     printf("Here.\n");
-for(int i = 1; i <= 10; i++ ){
+    for(int i = 1; i <= 10; i++ ){
         printf("%d\n", a[i]);
     }
     int * out = sort(a);
@@ -94,9 +92,5 @@ for(int i = 1; i <= 10; i++ ){
     }
 
     free(a);
-
-    // for(int i = 1; i < 1000001; i++){
-    //     printf("%d\n", out[i]);
-    // }
 
 }
